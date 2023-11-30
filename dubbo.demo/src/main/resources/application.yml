@@ -1,0 +1,11 @@
+dubbo:
+  application:
+    logger: slf4j
+    name: Application
+  registry:
+    address: nacos://${nacos.address:127.0.0.1}:8848
+  protocol:
+    name: dubbo
+    port: 20880
+server:
+  port: 8080
