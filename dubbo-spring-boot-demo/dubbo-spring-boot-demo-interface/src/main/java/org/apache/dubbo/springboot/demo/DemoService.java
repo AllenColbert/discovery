@@ -1,4 +1,4 @@
-package org.xyf.dubbo.springboot.demo;
+package org.apache.dubbo.springboot.demo;
 
 public interface DemoService {
 

@@ -1,7 +1,7 @@
-package org.xyf.dubbo.springboot.demo.provider;
+package org.apache.dubbo.springboot.demo.provider;
 
 import org.apache.dubbo.config.annotation.DubboService;
-import org.xyf.dubbo.springboot.demo.DemoService;
+import org.apache.dubbo.springboot.demo.DemoService;
 
 @DubboService
 public class DemoServiceImpl implements DemoService {

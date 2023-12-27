@@ -1,9 +1,9 @@
-package org.xyf.dubbo.springboot.demo.consumer;
+package org.apache.dubbo.springboot.demo.consumer;
 
 import org.apache.dubbo.config.annotation.DubboReference;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import org.xyf.dubbo.springboot.demo.DemoService;
+import org.apache.dubbo.springboot.demo.DemoService;
 
 import java.util.Date;
 
