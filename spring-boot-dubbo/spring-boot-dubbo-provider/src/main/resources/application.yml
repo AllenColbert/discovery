@@ -1,0 +1,12 @@
+server:
+  port: 8891
+dubbo:
+  application:
+    logger: slf4j
+    name: SpringBootDubboProviderApplication
+  registry:
+    address: nacos://${nacos.address:127.0.0.1}:8848
+  protocol:
+    name: tri
+    port: 50051
+

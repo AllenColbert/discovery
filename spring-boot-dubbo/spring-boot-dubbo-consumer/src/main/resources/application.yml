@@ -1,0 +1,8 @@
+server:
+  port: 8892
+dubbo:
+  application:
+    logger: slf4j
+    name: SpringBootDubboConsumerApplication
+  registry:
+    address: nacos://${nacos.address:127.0.0.1}:8848
